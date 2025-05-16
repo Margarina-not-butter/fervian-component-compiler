@@ -1,0 +1,32 @@
+{
+  "name": "fervian-component-compiler",
+  "version": "1.0.1",
+  "description": "Created for compiling Fervian Blog.",
+  "keywords": [
+    "blog",
+    "static-website"
+  ],
+  "homepage": "https://github.com/Margarina-not-butter/fervian-component-compiler#readme",
+  "bugs": {
+    "url": "https://github.com/Margarina-not-butter/fervian-component-compiler/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Margarina-not-butter/fervian-component-compiler.git"
+  },
+  "license": "MIT",
+  "author": "Adrian Victor de Abreu Alves <adrianvictor@disroot.org>",
+  "type": "commonjs",
+  "target": "es6",
+  "esModuleInterop": true,
+  "main": "compile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "files": [
+    "compile.js"
+  ],
+  "devDependencies": {
+    "jsdoc": "^4.0.4"
+  }
+}
