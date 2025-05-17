@@ -1,6 +1,6 @@
 {
   "name": "fervian-component-compiler",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Created for compiling Fervian Blog.",
   "keywords": [
     "blog",
@@ -16,7 +16,7 @@
   },
   "license": "MIT",
   "author": "Adrian Victor de Abreu Alves <adrianvictor@disroot.org>",
-  "type": "commonjs",
+  "type": "module",
   "target": "es6",
   "esModuleInterop": true,
   "main": "compile.js",
@@ -28,5 +28,8 @@
   ],
   "devDependencies": {
     "jsdoc": "^4.0.4"
+  },
+  "dependencies": {
+    "chalk": "^5.4.1"
   }
 }
